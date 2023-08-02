@@ -1,0 +1,90 @@
+@import "./partials/reset";
+@import "./partials/spaziature";
+@import "./partials/colori";
+@import "./partials/mixins";
+@import "./partials/font";
+@import "./partials/bottoni";
+@import "./partials/animazioni";
+
+body {
+  color: $text-color;
+}
+
+header {
+  background-color: $bg-hero;
+  animation: fadeIn 1s;
+  margin-bottom: $bottom-margin;
+  nav {
+    background-color: $bg-navbar;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $nav-padding;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      min-width: 300px;
+
+      li {
+        padding: $button-padding;
+        background-color: $bg-links;
+        margin-inline: $button-margin;
+        border-radius: $border-radius;
+        font-size: $button-text-size;
+        color: $header-links;
+        cursor: pointer;
+      }
+    }
+  }
+  section {
+    max-width: $container-width;
+    margin-inline: $container-margin;
+    display: flex;
+    align-items: center;
+    position: relative;
+    div {
+      display: flex;
+      align-items: left;
+      flex-direction: column;
+      div {
+        flex-direction: row;
+        max-width: 400px;
+        justify-content: space-between;
+        button {
+          &:hover {
+            background-image: $button-hover;
+          }
+        }
+      }
+      h1 {
+        font-size: $title-big;
+      }
+      p {
+        margin-bottom: $bottom-margin;
+      }
+
+      img {
+        width: $hero-img-width;
+      }
+    }
+  }
+}
+
+main {
+  background-color: $bg-main;
+  section {
+    max-width: $container-width;
+    margin-inline: $container-margin;
+    display: flex;
+    justify-content: space-between;
+    div {
+      img {
+        width: $section-img-width;
+      }
+    }
+  }
+}
+
+.card {
+}

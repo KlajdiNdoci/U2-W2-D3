@@ -1,0 +1,14 @@
+button {
+  border-radius: $border-radius;
+  padding: $button-padding;
+  border: 0;
+  font-size: $button-text-size;
+  cursor: pointer;
+}
+
+@each $key, $value in $bg-btn {
+  .btn-#{$key} {
+    background-color: $value;
+    color: $text-color;
+  }
+}
