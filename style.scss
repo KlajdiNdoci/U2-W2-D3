@@ -25,6 +25,9 @@ header {
       justify-content: space-between;
       list-style: none;
       min-width: 300px;
+      & :hover {
+        background-color: $links-hover;
+      }
 
       li {
         padding: $button-padding;
