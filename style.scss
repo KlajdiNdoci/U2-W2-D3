@@ -26,12 +26,11 @@ header {
       justify-content: space-between;
       list-style: none;
       min-width: 300px;
-
+    }
+    a {
+      text-decoration: none;
       & :hover {
         background-color: $links-hover;
-      }
-      a {
-        text-decoration: none;
       }
 
       li {

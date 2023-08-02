@@ -61,13 +61,13 @@ header nav ul {
   list-style: none;
   min-width: 300px;
 }
-header nav ul :hover {
-  background-color: rgba(94, 93, 93, 0.993);
-}
-header nav ul a {
+header nav a {
   text-decoration: none;
 }
-header nav ul li {
+header nav a :hover {
+  background-color: rgba(94, 93, 93, 0.993);
+}
+header nav a li {
   padding: 0.5rem 1rem 0.5rem 1rem;
   background-color: black;
   margin-inline: 0.5rem;
