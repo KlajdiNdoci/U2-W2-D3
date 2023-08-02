@@ -68,7 +68,7 @@ header {
       }
 
       img {
-        width: $hero-img-width;
+        @include customImg(400px, white);
       }
     }
   }
@@ -83,7 +83,7 @@ main {
     justify-content: space-between;
     div {
       img {
-        width: $section-img-width;
+        @include customImg(250px, none);
       }
     }
   }

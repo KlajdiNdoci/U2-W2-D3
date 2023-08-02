@@ -101,6 +101,9 @@ header section div p {
 }
 header section div img {
   width: 400px;
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 1px 3px 20px black;
 }
 
 main {
@@ -114,4 +117,7 @@ main section {
 }
 main section div img {
   width: 250px;
+  border-radius: 10px;
+  border: 2px solid none;
+  box-shadow: 1px 3px 20px black;
 }/*# sourceMappingURL=style.css.map */
